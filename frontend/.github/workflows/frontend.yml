@@ -5,16 +5,12 @@ on:
   push:
     branches:
       - gayathri_devops
-    paths:
-      - "frontend/**"
-      - ".github/workflows/frontend.yml"
+    
 
   pull_request:
     branches:
       - gayathri_devops
-    paths:
-      - "frontend/**"
-      - ".github/workflows/frontend.yml"
+    
 
   workflow_dispatch:
 
