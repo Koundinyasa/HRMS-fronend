@@ -1,5 +1,4 @@
-
-name: KTS-People360 Frontend CI/CD
+name: KTS-People360 Frontend CI/CD 
 
 on:
   push:
