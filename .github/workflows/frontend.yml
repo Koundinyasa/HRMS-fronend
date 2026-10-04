@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  NODE_VERSION: "22"
+  NODE_VERSION: "24"
   DOCKER_IMAGE_FRONTEND: kts-people360-frontend
 
 jobs:
@@ -46,7 +46,7 @@ jobs:
           npm --version
 
       - name: Install Frontend Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run Frontend Lint
         run: npm run lint
